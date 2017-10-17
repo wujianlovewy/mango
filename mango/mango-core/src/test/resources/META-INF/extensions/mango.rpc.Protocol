@@ -1,0 +1,2 @@
+mango=mango.protocol.DefaultRpcProtocol
+myprotocol=test.protocol.MyRpcProtocol

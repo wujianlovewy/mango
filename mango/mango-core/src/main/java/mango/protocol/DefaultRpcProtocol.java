@@ -38,7 +38,7 @@ public class DefaultRpcProtocol extends AbstractProtocol {
 
     @Override
     public void destroy() {
-
+    	logger.info("DefaultRpcProtocol destroy...");
     }
 
     class DefaultRpcReference<T> extends AbstractReference<T> {

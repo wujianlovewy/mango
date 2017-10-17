@@ -283,7 +283,7 @@ public class ExtensionLoader<T> {
 
         Class<?> clazz = extensionClasses.get(name);
         if (clazz == null)
-            throw new IllegalArgumentException("not find extension with name:"+name);
+            throw new IllegalArgumentException("not find extension with name: "+name);
         return clazz;
     }
 
